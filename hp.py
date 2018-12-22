@@ -105,7 +105,7 @@ class Game:
         
         #Draw each cookie
         for c in self.cookies:
-            pyxel.blt(c.x, c.y, BMP_COOKIE, 5, 5, 5, 5, 0)
+            pyxel.blt(c.x, c.y, BMP_COOKIE, 4, 4, 8, 8, 0)
             pyxel.pix(c.x, c.y, 11)
 
         #Draw number of cookies
@@ -113,7 +113,7 @@ class Game:
         pyxel.text(1, 1, txt, 3)
 
         #Draw santas hat
-        pyxel.blt(self.hat.x, self.hat.y, BMP_HAT, 2, 7, 10, 10, 0)
+        pyxel.blt(self.hat.x, self.hat.y, BMP_HAT, 0, 7, 14, 11, 0)
         pyxel.pix(self.hat.x, self.hat.y, 11)
     def move_hat(self):
         MAX_SPEED = 5
@@ -125,8 +125,8 @@ class Game:
         self.hat.x += int(self.speed)
 
     def caught(self, cookie):
-        hat_w = 10
-        cookie_w = 5
+        hat_w = 13
+        cookie_w = 8
         hat = self.hat
         if cookie.x in range(hat.x - hat_w + cookie_w, hat.x + hat_w) and cookie.y in range(hat.y - 3, hat.y + 3):
             print("DING")
@@ -138,7 +138,7 @@ class Game:
         x = randint(0, self.WIDTH)
         p = Point(x, 0)
         self.cookies.append(p)
-        self.spawn_prob*= 0.25
+        self.spawn_prob*= 0.1
 
     def hat_speed(self):
         speed = self.speed + self.acceleration
