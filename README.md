@@ -3,6 +3,8 @@
 Try and catch the cookies into Santa's Hat   
 Controls are the arrow keys **←** **→**
 
+## Preview ##
+![Demo!](https://github.com/skvrahul/cookie_dash/blob/master/files/cookie_dash.gif)
 ## Features ##
 
 1. Catch cookies into Santa's hat
