@@ -56,7 +56,7 @@ class Game:
         self.sound_speed = 30
         self.acceleration = 0
         self.speed = 0
-        self.friction = -0.4
+        self.friction = -0.6
 
     def __init__(self):
         self.WIDTH = 200
