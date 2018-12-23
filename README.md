@@ -1,5 +1,5 @@
 # Cookie Dash #
-## A basic game built using [Pyxel](https://github.com/kitao/pyxel)! ## 
+## A basic Christmas themed game built using [Pyxel](https://github.com/kitao/pyxel)! ## 
 Try and catch the cookies into Santa's Hat   
 Controls are the arrow keys **←** **→**
 
