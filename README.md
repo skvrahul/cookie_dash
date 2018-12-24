@@ -19,3 +19,5 @@ Controls are the arrow keys **←** **→**
 2. Install [Pyxel](https://github.com/kitao/pyxel) using their instructions
 3. Clone or copy this repository
 4. `python3 game.py` at the command line
+
+Note: To edit the Sounds/Music or Sprites(cookie and Hat) , run `pyxeleditor res.pyxel` and refer to the Pyxel Documentation for further details.
